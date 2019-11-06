@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="871.0" prefWidth="1372.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.view.preview.FXMLDrawPreviewController">
+   <children>
+      <ScrollPane prefHeight="871.0" prefWidth="1372.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <Canvas fx:id="DrawField" height="1200.0" onContextMenuRequested="#ContextMenu" onDragDetected="#DragStart" onDragDone="#DragEnd" onDragDropped="#DragDropped" onDragEntered="#DragEntered" onDragExited="#DragExited" onDragOver="#DragOver" onMouseClicked="#MouseClicked" onMouseDragged="#MouseDragged" onMouseEntered="#MouseEntered" onMouseExited="#MouseExited" onMouseMoved="#MouseMoved" onMousePressed="#MousePressed" onMouseReleased="#MouseReleased" width="1400.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></Canvas>
+         </content>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#CopyWidget" text="Copy" />
+                  <MenuItem mnemonicParsing="false" onAction="#PasteWidget" text="Paste" />
+                  <MenuItem mnemonicParsing="false" onAction="#RemoveWidget" text="Remove" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,2 +1,3 @@
-# inz
-Praca inżynierska
+# INZ
+
+Moja praca inzynierska

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+  <windowSizeX>1200</windowSizeX>
+  <windowSizeY>950</windowSizeY>
+  <defaultProjectX>800</defaultProjectX>
+  <defaultProjectY>600</defaultProjectY>
+  <defaultButtonSizeX>60</defaultButtonSizeX>
+  <defaultButtonSizeY>30</defaultButtonSizeY>
+  <defaultLabelSizeX>40</defaultLabelSizeX>
+  <defaultLabelSizeY>20</defaultLabelSizeY>
+  <defaultCheckBoxSizeX>60</defaultCheckBoxSizeX>
+  <defaultCheckBoxSizeY>60</defaultCheckBoxSizeY>
+  <defaultRadioButtonSizeX>60</defaultRadioButtonSizeX>
+  <defaultRadioButtonSizeY>30</defaultRadioButtonSizeY>
+</config>
